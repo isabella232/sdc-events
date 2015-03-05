@@ -1,0 +1,23 @@
+{
+    "admin_ip": "10.99.99.7",
+    "amon_domain": "amon.dev-coal-1.joyent.us",
+    "cloudapi_domain": "cloudapi.dev-coal-1.joyent.us",
+    "cnapi_domain": "cnapi.dev-coal-1.joyent.us",
+    "datacenter_name": "dev-coal-1",
+    "fwapi_domain": "fwapi.dev-coal-1.joyent.us",
+    "imgapi_domain": "imgapi.dev-coal-1.joyent.us",
+    "napi_domain": "napi.dev-coal-1.joyent.us",
+    "papi_domain": "papi.dev-coal-1.joyent.us",
+    "rabbitmq": "guest:guest:10.99.99.20:5672",
+    "sapi_domain": "sapi.dev-coal-1.joyent.us",
+    "sdc_key_id": "fb:13:b8:25:b5:d1:5f:49:05:93:7f:6f:8d:b0:32:e2",
+    "ufds_admin_login": "admin",
+    "ufds_admin_uuid": "930896af-bf8c-48d4-885c-6573a94b1853",
+    "ufds_domain": "ufds.dev-coal-1.joyent.us",
+    "ufds_is_master": true,
+    "ufds_ldap_root_dn": "cn=root",
+    "ufds_ldap_root_pw": "secret",
+    "ufds_remote_ip": "",
+    "vmapi_domain": "vmapi.dev-coal-1.joyent.us",
+    "workflow_domain": "workflow.dev-coal-1.joyent.us"
+}
