@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*
  * TODO:
  * - check all LOGSETS are correct
@@ -30,7 +31,7 @@ var dashdash = require('dashdash');
 var path = require('path');
 var fs = require('fs');
 
-var SDCEvents = require('./index');
+var SDCEvents = require('../lib/index');
 
 // ---- mainline
 
