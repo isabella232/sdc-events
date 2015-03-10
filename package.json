@@ -21,9 +21,7 @@
   "engines": {
       "node": ">=0.8"
   },
-  "bin": {
-    "sdc-events": "./bin/cli.js"
-  },
+  "bin": "./bin/cli.js",
   "scripts": {
     "test": "./node_modules/.bin/tap test/*.test.js"
   },
