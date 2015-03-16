@@ -22,6 +22,10 @@
       "node": ">=0.8"
   },
   "bin": "./bin/cli.js",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "scripts": {
     "test": "./node_modules/.bin/tap test/*.test.js"
   },
