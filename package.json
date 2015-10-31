@@ -1,13 +1,13 @@
 {
   "name": "sdc-events",
   "description": "SDC Events",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "author": "Joyent (joyent.com)",
   "private": true,
   "dependencies": {
-    "urclient": "git+ssh://git@github.com:joyent/node-urclient.git#2b9f739",
+    "urclient": "git+ssh://git@github.com:joyent/node-urclient.git#a69c085",
     "node-uuid": "1.4.0",
-    "sdc-clients": "git+ssh://git@github.com:joyent/node-sdc-clients.git#f7bb37d72d",
+    "sdc-clients": "9.0.3",
     "filed": "0.0.5",
     "bunyan": "1.3.3",
     "vasync": "1.5.0",
