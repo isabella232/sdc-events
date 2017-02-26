@@ -30,6 +30,7 @@
 var dashdash = require('dashdash');
 var path = require('path');
 var fs = require('fs');
+var fmt = require('sys').format;
 
 var SDCEvents = require('../lib/index');
 
@@ -77,7 +78,9 @@ var OPTION_SPECS = [
         helpArg: 'NAME',
         help: 'Logsets to search. By default all logsets are searched. ' +
             'Known logsets: ' +
-            SDCEvents.LOGSETS.map(function (ls) { return ls.name; }).sort().join(', ')
+            SDCEvents.LOGSETS.map(function (ls) {
+                return ls.name;
+            }).sort().join(', ')
     },
     {
         names: ['event-trace', 'E'],
@@ -207,16 +210,7 @@ if (process.env.TRACE) {
 
 function main() {
     var options = parseOpts(OPTION_SPECS, process.argv);
-    if (options.verbose) {
-        LOG.level('trace');
-    }
     debug('options', options);
-
-    PROGRESS = function () {};
-    if (options.verbose) {
-        PROGRESS = console.error;
-    }
-
 
     var filters = [ ['evt', 'exists'] ];
     if (options._args.length > 0) {
